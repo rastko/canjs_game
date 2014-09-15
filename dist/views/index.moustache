@@ -1,0 +1,15 @@
+<nav>
+	<ul>
+		<li><a href="#characters" class="btn btn-block btn-primary btn-primary">Select character</a></li>
+		<li><a href="#" class="btn btn-danger btn-large btn-block">Continue</a></li>
+		<li><a href="#" class="btn btn-danger btn-large btn-block">Options</a></li>
+	</ul>
+</nav>
+
+<div id="modal" class="panel panel-success hidden">
+  <div class="panel-heading">
+    <h3 class="panel-title"></h3>
+  </div>
+  <div class="panel-body">
+  </div>
+</div>
