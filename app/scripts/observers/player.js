@@ -1,0 +1,1 @@
+var player = new can.Observe({character: {}, items: {}});

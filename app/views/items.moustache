@@ -1,0 +1,35 @@
+<div class="items">
+	<h3>Your starting gear:</h3>
+	<div>
+		Weapons
+		<ul id="weapons">
+			{{#each data.weapons}}
+				{{#.}}
+					<li>
+						{{name}}
+					</li>
+				{{/.}}
+			{{/data.weapons}}
+		</ul>
+	</div>
+
+	<div>
+		Armor
+		<ul id="armor">
+			{{#each data.armor}}
+				{{#.}}
+					<li>
+						{{name}}
+					</li>
+				{{/.}}
+			{{/data.armor}}
+		</ul>
+	</div>
+	<button type="button" class="btn btn-primary item-select">Select</button>
+</div>
+
+<div class="confirm hidden" id="confirmation">
+	<h3>Happy with the picks?</h3>
+	<button class="btn btn-danger" id="btn-no">No, I want to re-pick</button>
+	<button class="btn btn-success" id="btn-ok">Yes, let's do this!</button>
+</div>

@@ -1,0 +1,22 @@
+{{#each characters}}
+	<div class="col-md-12 character">
+		<h2>{{name}}</h2>
+		<blockquote>{{quote}}</blockquote>
+		<p><strong>Class:</strong> {{class}} </p>
+		<p><strong>Strenght:</strong> {{str}}</p>
+		<p><strong>Constitution:</strong> {{con}}</p>
+		<p><strong>Intelligence:</strong> {{int}}</p>
+		<p><strong>Charisma:</strong> {{cha}}</p>
+		<p><strong>Skills:</strong></p>
+		<ul>
+			{{#schools}}
+				<li>{{.}}</li>
+			{{/schools}}
+		</ul>
+		<img src="images/{{image}}" /> 
+		<button type="button" class="btn btn-primary select" value="{{class}}" data-name="{{name}}" data-proffession="{{class}} data-id={{id}}">Select</button>
+	</div>
+	<hr>
+{{/characters}}
+
+<div id="items"></div>
