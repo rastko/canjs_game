@@ -1,4 +1,4 @@
 canjs_game
 ==========
 
-Sample RPG style character selection with canJS
+Sample RPG style character selection/creation with canJS
